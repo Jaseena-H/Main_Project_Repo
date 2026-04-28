@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-28T20:41:13 IST" name="Suite" finished-at="2026-04-28T20:41:29 IST" duration-ms="16488">
+    <groups>
+    </groups>
+    <test started-at="2026-04-28T20:41:13 IST" name="Test" finished-at="2026-04-28T20:41:29 IST" duration-ms="16488">
+      <class name="testscriptpackage2.ManageCategoryTest">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscriptpackage2.ManageCategoryTest@49b2a47d]" started-at="2026-04-28T20:41:13 IST" name="browserInitialisation" finished-at="2026-04-28T20:41:16 IST" duration-ms="2857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyThatTheUserCanUpdateCategoryInfo()[pri:0, instance:testscriptpackage2.ManageCategoryTest@49b2a47d]" started-at="2026-04-28T20:41:16 IST" name="verifyThatTheUserCanUpdateCategoryInfo" finished-at="2026-04-28T20:41:25 IST" duration-ms="9621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatTheUserCanUpdateCategoryInfo -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscriptpackage2.ManageCategoryTest@49b2a47d]" started-at="2026-04-28T20:41:25 IST" name="browserQuit" finished-at="2026-04-28T20:41:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatTheUserCanUpdateCategoryInfo status=SUCCESS method=ManageCategoryTest.verifyThatTheUserCanUpdateCategoryInfo()[pri:0, instance:testscriptpackage2.ManageCategoryTest@49b2a47d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testscriptpackage2.ManageCategoryTest -->
+      <class name="testscriptpackage2.LogoutTest">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscriptpackage2.LogoutTest@45efd90f]" started-at="2026-04-28T20:41:25 IST" name="browserInitialisation" finished-at="2026-04-28T20:41:28 IST" duration-ms="2398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyUserIsAbleToLogout()[pri:0, instance:testscriptpackage2.LogoutTest@45efd90f]" started-at="2026-04-28T20:41:28 IST" name="verifyUserIsAbleToLogout" finished-at="2026-04-28T20:41:29 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLogout -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscriptpackage2.LogoutTest@45efd90f]" started-at="2026-04-28T20:41:29 IST" name="browserQuit" finished-at="2026-04-28T20:41:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLogout status=SUCCESS method=LogoutTest.verifyUserIsAbleToLogout()[pri:0, instance:testscriptpackage2.LogoutTest@45efd90f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- testscriptpackage2.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
