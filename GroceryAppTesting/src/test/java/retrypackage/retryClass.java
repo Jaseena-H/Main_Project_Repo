@@ -21,3 +21,4 @@ public class retryClass implements IRetryAnalyzer
 		return false;
 	}
 }
+//this is applicable for network error issues
